@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { motion, useTransform, useScroll } from "framer-motion";
 import Link from "next/link";
 import { useRef } from "react";
@@ -15,7 +15,7 @@ export default function Scroll() {
   return (
     <div ref={targetRef} className=" h-[400vh] w-[200vw] ">
       <div className="sticky w-auto top-0 h-screen items-center ">
-        <div className="flex">
+        <div className="flex ">
           <motion.div
             style={{ x, backgroundImage: `url('/basico.png')` }}
             className="w-[100vw] h-screen flex items-center justify-center  bg-white"
@@ -24,7 +24,7 @@ export default function Scroll() {
               initial={{ x: 300 }}
               transition={{ duration: 2 }}
               whileInView={{ x: 0 }}
-              viewport={{once:true}}
+              viewport={{ once: true }}
               className="w-full flex justify-end  h-full bg-gradient-to-r from-gray-900/20 via-gray-900 to-gray-900"
             >
               <div className="w-1/2 h-full flex flex-col p-24 gap-8">
@@ -34,7 +34,7 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-white flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Single Page Application (SPA)
@@ -43,7 +43,7 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2.1 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-white flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> 4 Secciones
@@ -52,18 +52,40 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2.2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-white flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Muestra de 2 trabajos
                   </motion.li>
                 </ol>
-                <motion.h1 viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:2.4}} className="text-2xl text-white">OFERTA!</motion.h1>
-                <motion.div viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:2.4}} className="flex">
-                <h1  className="text-2xl text-white">$35.000 ARS</h1>
-                <h1 className="text-gray-700"><strike>$26.900 ARS</strike></h1>
+                <motion.h1
+                  viewport={{ once: true }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 2.4 }}
+                  className="text-2xl text-white"
+                >
+                  OFERTA!
+                </motion.h1>
+                <motion.div
+                  viewport={{ once: true }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 2.4 }}
+                  className="flex"
+                >
+                  <h1 className="text-2xl text-white">$35.000 ARS</h1>
+                  <h1 className="text-gray-700">
+                    <strong>$26.900 ARS</strong>
+                  </h1>
                 </motion.div>
-                <motion.div viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:2.4}} className="flex gap-8 mt-5">
+                <motion.div
+                  viewport={{ once: true }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 2.4 }}
+                  className="flex gap-8 mt-5"
+                >
                   <Link
                     href="/basica"
                     className="text-slate-400 border-2 bg-gray-800 border-slate-300 p-2 rounded-xl text-xs cursor-pointer transition hover:bg-white hover:text-black w-32 items-center justify-center flex gap-2"
@@ -90,7 +112,7 @@ export default function Scroll() {
               initial={{ x: 300 }}
               transition={{ duration: 2 }}
               whileInView={{ x: 0 }}
-              viewport={{once:true}}
+              viewport={{ once: true }}
               className="w-full flex justify-end  h-full bg-gradient-to-r from-slate-100/0 via-slate-100 to-slate-100"
             >
               <div className="w-1/2 h-full flex flex-col p-24 gap-4">
@@ -100,7 +122,7 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-blac flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Single Page Application (SPA)
@@ -109,7 +131,7 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Cambio entre Espaniol e ingles
@@ -117,7 +139,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     transition={{ duration: 1, delay: 2.1 }}
                     className="text-black flex items-center gap-2"
                   >
@@ -127,16 +149,17 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2.2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
-                    <FaLongArrowAltRight /> Muestra de 4 trabajos con animaciones
+                    <FaLongArrowAltRight /> Muestra de 4 trabajos con
+                    animaciones
                   </motion.li>
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Animaciones
@@ -145,7 +168,7 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Gestion de dominio y hosting
@@ -154,18 +177,40 @@ export default function Scroll() {
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 2 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> Cambio entre tema claro y oscuro
                   </motion.li>
                 </ol>
-                <motion.h1 viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:2.4}} className="text-2xl text-black">OFERTA!</motion.h1>
-                <motion.div  viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:2.4}} className="flex">
-                <h1  className="text-2xl text-black">$65.000 ARS</h1>
-                <h1 className="text-gray-700"><strike>$42.500 ARS</strike></h1>
+                <motion.h1
+                  viewport={{ once: true }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 2.4 }}
+                  className="text-2xl text-black"
+                >
+                  OFERTA!
+                </motion.h1>
+                <motion.div
+                  viewport={{ once: true }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 2.4 }}
+                  className="flex"
+                >
+                  <h1 className="text-2xl text-black">$65.000 ARS</h1>
+                  <h1 className="text-gray-700">
+                    <strong>$42.500 ARS</strong>
+                  </h1>
                 </motion.div>
-                <motion.div viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:2.4}} className="flex gap-8 mt-5">
+                <motion.div
+                  viewport={{ once: true }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 2.4 }}
+                  className="flex gap-8 mt-5"
+                >
                   <Link
                     href="/mediana/es"
                     className="text-slate-400 border-2 bg-gray-800 border-slate-300 p-2 rounded-xl text-xs cursor-pointer transition hover:bg-white hover:text-black w-32 items-center justify-center flex gap-2"
