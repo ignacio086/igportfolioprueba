@@ -31,7 +31,7 @@
   "title":"PROJECTS",
   "boton":"More info",
   "repo":"Repository",
-  "webcontent":"Website created with HTML5, CSS3, JavaScript, and React, aimed at promoting a crazy photographer.",
+  "webcontent":"Website created with HTML5, CSS3, JavaScript, and React, aimed at promoting a local photographer.",
   "stockcontent":"Stock and sales manager made with Next.js and MySQL, capable of organizing products, sales, and business audits through an API created and consumed with Next.js.",
   "ecommercecontent":"E-commerce project made with T3 stack, capable of running a business digitally, with payment methods and a shopping cart.",
   "taskcontent":"Essential ToDoApp task application. Made with Next.js and MongoDB, a small CRUD test."

@@ -1,8 +1,6 @@
 "use client";
 import Scroll from "./components/Scroll";
 import NoScroll from "./components/NoScroll";
-import { motion } from "framer-motion";
-import { FaAngleDown } from "react-icons/fa";
 import Primero from "./components/First";
 export default function Home() {
   let pantalla;

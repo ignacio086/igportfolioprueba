@@ -31,7 +31,7 @@
   "title":"PROYECTOS",
   "boton":"Más info",
   "repo":"Repositorio",
-  "webcontent":"Página web creada con HTML5, CSS3, JavaScript y React, con el objetivos de promover a fótografa loca.",
+  "webcontent":"Página web creada con HTML5, CSS3, JavaScript y React, con el objetivos de promover a fótografa local.",
   "stockcontent":"Gestor de stock y ventas realizada con Next.js y MySql, capaz de organizar productos, ventas y arqueos de un negocio a traves de una API creada y consumida con Next.js.",
   "ecommercecontent":"Proyecto de e-commerce realizado con T3 stack, capaz de llevar un negocio de forma digital, con métodos de pago y carrito de compras.",
   "taskcontent":"Infaltable aplicación de Tareas más conocida como ToDoApp. Realizada con Next.js y MongoDB, una pequeña prueba de CRUD."

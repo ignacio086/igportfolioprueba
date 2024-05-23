@@ -15,6 +15,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors:{
+        nuevo:{
+          100:'#e9e0d1',
+          200:'#91a398',
+          300:'#33605a',
+          400:'#070001',
+          500:'#68462b'
+        }
+      }
     },
   },
   plugins: [],

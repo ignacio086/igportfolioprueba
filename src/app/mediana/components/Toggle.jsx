@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Lato } from "next/font/google";
 import { useRouter } from "next/navigation";
 
