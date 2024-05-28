@@ -18,6 +18,7 @@ export default function Inicio() {
     <div
       ref={targetRef}
       className="flex justify-end w-screen h-[200vh] mt-40 lg:mt-0 lg:h-[300vh] bg-nuevo-100"
+      id="iniciopremium"
     >
       <motion.div
         style={{ y: y }}
@@ -26,20 +27,28 @@ export default function Inicio() {
         <motion.h1
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{duration:1}}
+          transition={{ duration: 1 }}
           style={oswald.style}
           className={` text-4xl lg:text-9xl bg-gradient-to-r from-nuevo-400 from-50% via-slate-50 via-50%   to-slate-50 to-100%  inline-block text-transparent bg-clip-text `}
         >
           IGNACIO GOMEZ
         </motion.h1>
-        <motion.p           initial={{ opacity: 0, x: -20 }}
+        <motion.p
+          initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{duration:1,delay:0.5}}className="mt-4 text-xs lg:text-xl " style={{ opacity: opacidad }}>
+          transition={{ duration: 1, delay: 0.5 }}
+          className="mt-4 text-xs lg:text-xl "
+          style={{ opacity: opacidad }}
+        >
           Full-stack developer
         </motion.p>
-        <motion.p initial={{ opacity: 0, x: -20 }}
+        <motion.p
+          initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{duration:1,delay:0.5}} className="mt-4 text-xs lg:text-xl" style={{ opacity: opacidad }}>
+          transition={{ duration: 1, delay: 0.5 }}
+          className="mt-4 text-xs lg:text-xl"
+          style={{ opacity: opacidad }}
+        >
           Next.js | React | Typescript | TailwindCSS | NestJS
         </motion.p>
         <motion.h1
@@ -47,7 +56,7 @@ export default function Inicio() {
           style={{ opacity: opacidad }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2,delay:0.5 }}
+          transition={{ duration: 2, delay: 0.5 }}
         >
           SCROLL PARA VER MÁS
         </motion.h1>

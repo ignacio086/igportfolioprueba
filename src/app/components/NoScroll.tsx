@@ -59,9 +59,9 @@ export default function NoScroll() {
               transition={{ duration: 0.5, delay: 2.4 }}
               className="flex"
             >
-              <h1 className="text-xl text-white">$35.000 ARS</h1>
+              <h1 className="text-xl text-white">$37.999 ARS</h1>
               <h1 className="text-gray-700">
-                <strong>$26.900 ARS</strong>
+                <del>$45.000 ARS</del>
               </h1>
             </motion.div>
             <motion.div
@@ -144,7 +144,7 @@ export default function NoScroll() {
                 viewport={{ once: true }}
                 className="text-black flex items-center gap-2"
               >
-                <FaLongArrowAltRight /> Gestion de dominio y hosting
+                <FaLongArrowAltRight /> Gestión de dominio y hosting
               </motion.li>
               <motion.li
                 initial={{ x: -10, opacity: 0 }}
@@ -172,9 +172,9 @@ export default function NoScroll() {
               transition={{ duration: 0.5, delay: 2.4 }}
               className="flex"
             >
-              <h1 className="text-xl text-black">$65.000 ARS</h1>
+              <h1 className="text-xl text-black">$62.500 ARS</h1>
               <h1 className="text-gray-700">
-                <strong>$42.500 ARS</strong>
+                <del>$85.000 ARS</del>
               </h1>
             </motion.div>
             <motion.div

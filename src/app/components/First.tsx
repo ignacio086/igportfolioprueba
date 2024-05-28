@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa";
 export default function Primero(){
  return (
   <div className="text-white h-screen gap-20 flex flex-col items-center justify-center p-24">
-  <div className="w-screen  lg:text-9xl flex flex-row gap-8 text-center text-white items-center justify-center">
+  <div className="w-screen text-5xl  lg:text-9xl flex flex-row gap-8 text-center text-white items-center justify-center">
     <motion.h1 initial={{opacity:0,x:-20}} animate={{opacity:1,x:0}} transition={{duration:2}}>SÉ</motion.h1>
     <motion.h1
       initial={{ opacity: 0 }}
@@ -37,7 +37,7 @@ export default function Primero(){
       MEJOR
     </motion.h1>
   </div>
-  <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:2}} className="text-5xl">OBTENÉ TU PORTFOLIO</motion.h1>
+  <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:2}} className=" text-2xl lg:text-5xl">OBTENÉ TU PORTFOLIO</motion.h1>
   <div className="items-center justify-center flex flex-col">
     <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:2}}>SCROLL PARA VER MÁS</motion.h1>
     <motion.span initial={{opacity:0,y:20}} animate={{opacity:[1,1,1,0.5,0],y:[0,20,0,20,0]}} transition={{duration:5,repeat:Infinity}}><FaAngleDown/></motion.span>

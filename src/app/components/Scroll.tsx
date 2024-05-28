@@ -22,7 +22,7 @@ export default function Scroll() {
           >
             <motion.div
               initial={{ x: 300 }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 1 }}
               whileInView={{ x: 0 }}
               viewport={{ once: true }}
               className="w-full flex justify-end  h-full bg-gradient-to-r from-gray-900/20 via-gray-900 to-gray-900"
@@ -33,7 +33,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 1 }}
                     viewport={{ once: true }}
                     className="text-white flex items-center gap-2"
                   >
@@ -42,7 +42,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2.1 }}
+                    transition={{ duration: 1, delay: 1.1 }}
                     viewport={{ once: true }}
                     className="text-white flex items-center gap-2"
                   >
@@ -51,7 +51,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2.2 }}
+                    transition={{ duration: 1, delay: 1.2 }}
                     viewport={{ once: true }}
                     className="text-white flex items-center gap-2"
                   >
@@ -62,7 +62,7 @@ export default function Scroll() {
                   viewport={{ once: true }}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 2.4 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
                   className="text-2xl text-white"
                 >
                   OFERTA!
@@ -71,19 +71,19 @@ export default function Scroll() {
                   viewport={{ once: true }}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 2.4 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
                   className="flex"
                 >
-                  <h1 className="text-2xl text-white">$35.000 ARS</h1>
-                  <h1 className="text-gray-700">
-                    <strong>$26.900 ARS</strong>
-                  </h1>
+              <h1 className="text-xl text-white">$37.999 ARS</h1>
+              <h1 className="text-gray-700">
+                <del>$45.000 ARS</del>
+              </h1>
                 </motion.div>
                 <motion.div
                   viewport={{ once: true }}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 2.4 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
                   className="flex gap-8 mt-5"
                 >
                   <Link
@@ -121,7 +121,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 1 }}
                     viewport={{ once: true }}
                     className="text-blac flex items-center gap-2"
                   >
@@ -130,17 +130,17 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 1 }}
                     viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
-                    <FaLongArrowAltRight /> Cambio entre Espaniol e ingles
+                    <FaLongArrowAltRight /> Cambio entre Español e Ingles
                   </motion.li>
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1, delay: 2.1 }}
+                    transition={{ duration: 1, delay: 1.1 }}
                     className="text-black flex items-center gap-2"
                   >
                     <FaLongArrowAltRight /> 5 Secciones con animaciones
@@ -148,7 +148,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2.2 }}
+                    transition={{ duration: 1, delay: 1.2 }}
                     viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
@@ -158,7 +158,7 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 1 }}
                     viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
@@ -167,16 +167,16 @@ export default function Scroll() {
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 1 }}
                     viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
-                    <FaLongArrowAltRight /> Gestion de dominio y hosting
+                    <FaLongArrowAltRight /> Gestión de dominio y hosting
                   </motion.li>
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 1 }}
                     viewport={{ once: true }}
                     className="text-black flex items-center gap-2"
                   >
@@ -187,7 +187,7 @@ export default function Scroll() {
                   viewport={{ once: true }}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 2.4 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
                   className="text-2xl text-black"
                 >
                   OFERTA!
@@ -196,19 +196,19 @@ export default function Scroll() {
                   viewport={{ once: true }}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 2.4 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
                   className="flex"
                 >
-                  <h1 className="text-2xl text-black">$65.000 ARS</h1>
-                  <h1 className="text-gray-700">
-                    <strong>$42.500 ARS</strong>
-                  </h1>
+              <h1 className="text-xl text-black">$62.500 ARS</h1>
+              <h1 className="text-gray-700">
+                <del>$85.000 ARS</del>
+              </h1>
                 </motion.div>
                 <motion.div
                   viewport={{ once: true }}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 2.4 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
                   className="flex gap-8 mt-5"
                 >
                   <Link
