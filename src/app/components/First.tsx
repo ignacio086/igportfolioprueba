@@ -11,7 +11,7 @@ export default function Primero(){
       animate={{
         opacity: [0.5, 1, 1, 1, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       }}
-      transition={{ duration: 15, repeat: Infinity }}
+      transition={{ duration: 6, repeat: Infinity }}
       className="relative bg-gradient-to-r from-red-900 via-orange-700 to-orange-500 inline-block text-transparent bg-clip-text"
     >
       PROFESIONAL
@@ -21,7 +21,7 @@ export default function Primero(){
       animate={{
         opacity: [0, 0, 0, 0, 0, 0.5, 1, 1, 1, 0.5, 0, 0, 0, 0, 0],
       }}
-      transition={{ duration: 15, repeat: Infinity }}
+      transition={{ duration: 6, repeat: Infinity }}
       className="absolute bg-gradient-to-r from-blue-900 via-blue-700 to-purple-700 inline-block text-transparent bg-clip-text"
     >
       ÚNICO
@@ -31,13 +31,13 @@ export default function Primero(){
       animate={{
         opacity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 1, 1, 1, 0.5],
       }}
-      transition={{ duration: 15, repeat: Infinity }}
+      transition={{ duration: 6, repeat: Infinity }}
       className="absolute bg-gradient-to-r from-amber-600 via-yellow-500 to-pink-700 inline-block text-transparent bg-clip-text"
     >
       MEJOR
     </motion.h1>
   </div>
-  <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:2}} className=" text-2xl lg:text-5xl">OBTENÉ TU PORTFOLIO</motion.h1>
+  <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:2}} className=" text-xl lg:text-3xl text-center">OBTENÉ TU PORTFOLIO Y GENERÁ LA MEJOR PRIMERA IMPRESIÓN</motion.h1>
   <div className="items-center justify-center flex flex-col">
     <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:2}}>SCROLL PARA VER MÁS</motion.h1>
     <motion.span initial={{opacity:0,y:20}} animate={{opacity:[1,1,1,0.5,0],y:[0,20,0,20,0]}} transition={{duration:5,repeat:Infinity}}><FaAngleDown/></motion.span>

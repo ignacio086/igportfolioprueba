@@ -12,7 +12,7 @@ export  function InterLowBrown() {
 
   return (
     <div
-      className=" w-screen h-60   bg-nuevo-100"
+      className=" w-screen h-0   bg-nuevo-100"
     >
     </div>
   );

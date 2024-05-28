@@ -4,6 +4,10 @@ import { TimelineComponent } from "./components/Timeline";
 import { IoCodeSlash, IoLink } from "react-icons/io5";
 import { FaPerson } from "react-icons/fa6";
 import Link from "next/link";
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Portfolio Básico",
+};
 export default function Basica() {
   return (
     <main className="absolute gap-20 flex flex-col items-center  top-0 z-[-2] h-auto w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">

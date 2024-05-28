@@ -28,7 +28,7 @@ export default function Scroll() {
               className="w-full flex justify-end  h-full bg-gradient-to-r from-gray-900/20 via-gray-900 to-gray-900"
             >
               <div className="w-1/2 h-full flex flex-col p-24 gap-8">
-                <h1 className="text-white text-2xl"> Portfolio Basico</h1>
+                <h1 className="text-white text-2xl"> Portfolio Básico</h1>
                 <ol className="flex flex-col gap-12" type="A">
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
@@ -94,11 +94,11 @@ export default function Scroll() {
                     Ver Ejemplo
                   </Link>
                   <Link
-                    href="#"
+                    href="https://api.whatsapp.com/send/?phone=542634782743&text=Bienvenido+a+mi+whatsapp+-+Ignacio+Gomez"
                     className="text-slate-400 border-2 bg-gray-800 border-slate-300 p-2 rounded-xl text-xs cursor-pointer transition hover:bg-white hover:text-black w-32 text-center flex gap-2"
                   >
                     <IoLogoWhatsapp className="h-full text-lg" />
-                    Consultar por mas
+                    Consultar por más
                   </Link>
                 </motion.div>
               </div>
@@ -116,7 +116,7 @@ export default function Scroll() {
               className="w-full flex justify-end  h-full bg-gradient-to-r from-slate-100/0 via-slate-100 to-slate-100"
             >
               <div className="w-1/2 h-full flex flex-col p-24 gap-4">
-                <h1 className="text-black text-2xl"> Portfolio Mediano</h1>
+                <h1 className="text-black text-2xl"> Portfolio Estándar</h1>
                 <ol className="flex flex-col gap-4" type="A">
                   <motion.li
                     initial={{ x: 10, opacity: 0 }}
@@ -219,11 +219,11 @@ export default function Scroll() {
                     Ver Ejemplo
                   </Link>
                   <Link
-                    href="#"
+                    href="https://api.whatsapp.com/send/?phone=542634782743&text=Bienvenido+a+mi+whatsapp+-+Ignacio+Gomez"
                     className="text-slate-400 border-2 bg-gray-800 border-slate-300 p-2 rounded-xl text-xs cursor-pointer transition hover:bg-white hover:text-black w-32 text-center flex gap-2"
                   >
                     <IoLogoWhatsapp className="h-full text-lg" />
-                    Consultar por mas
+                    Consultar por más
                   </Link>
                 </motion.div>
               </div>
